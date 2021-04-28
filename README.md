@@ -7,7 +7,7 @@
 * ./node-server 服务端 原生node.js 数据库 mysql
 
     | 地址   | 类型  |  参数(*为必填) | 说明 |
-    | :----- |  :-----  | :----- |  :----- | :----- |
+    | :----- |  :-----  | :----- |  :----- |
     | /api/blog/list | GET | author,keyword | 获取博客列表|
     | /api/blog/detail | GET |id*  |获取博客详情|
     | /api/blog/new | POST |title* ,content* , author*|创建新博客|
