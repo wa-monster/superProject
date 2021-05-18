@@ -1,10 +1,8 @@
 <template>
-  <div>
-
-  </div>
+  <router-view></router-view>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   setup () {
     
