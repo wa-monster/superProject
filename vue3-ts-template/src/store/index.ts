@@ -1,9 +1,8 @@
-
-import { createStore} from 'vuex'
+import { createStore } from 'vuex'
 import getters from './getter'
 import user from './module/user'
 const store = createStore({
-  modules:{
+  modules: {
     user
   },
   getters

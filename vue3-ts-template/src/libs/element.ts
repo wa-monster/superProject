@@ -1,5 +1,5 @@
 // 按需加载element
-import type { App } from "vue"
+import type { App } from 'vue'
 
 import {
   ElAlert,
@@ -84,11 +84,11 @@ import {
   ElLoading,
   ElMessage,
   ElMessageBox,
-  ElNotification,
-} from "element-plus"
+  ElNotification
+} from 'element-plus'
 
-import locale from "element-plus/lib/locale"
-import lang from "element-plus/lib/locale/lang/zh-cn"
+import locale from 'element-plus/lib/locale'
+import lang from 'element-plus/lib/locale/lang/zh-cn'
 
 // 设置语言
 locale.use(lang)
@@ -171,7 +171,7 @@ const components = [
   ElTooltip,
   ElTransfer,
   ElTree,
-  ElUpload,
+  ElUpload
 ]
 
 const plugins = [ElInfiniteScroll, ElLoading, ElMessage, ElMessageBox, ElNotification]
@@ -186,5 +186,5 @@ export function setupElement(app: App<Element>): void {
   })
 
   // 全局配置
-  app.config.globalProperties.$ELEMENT = { size: "small", zIndex: 3000 }
+  app.config.globalProperties.$ELEMENT = { size: 'small', zIndex: 3000 }
 }

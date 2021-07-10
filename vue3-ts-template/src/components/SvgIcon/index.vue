@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue"
+import { defineComponent, computed } from 'vue'
 
 interface Props {
   iconClass: string
@@ -13,32 +13,32 @@ interface Props {
 }
 
 export default defineComponent({
-  name: "SvgIcon",
+  name: 'SvgIcon',
   props: {
     iconClass: {
       type: String,
-      required: true,
+      required: true
     },
     className: {
       type: String,
-      default: () => "",
-    },
+      default: () => ''
+    }
   },
   setup(props: Props) {
     const iconName = computed((): string => `#icon-${props.iconClass}`)
     const svgClass = computed((): string => {
       if (props.className) {
-        return "svg-icon " + props.className
+        return 'svg-icon ' + props.className
       } else {
-        return "svg-icon"
+        return 'svg-icon'
       }
     })
 
     return {
       iconName,
-      svgClass,
+      svgClass
     }
-  },
+  }
 })
 </script>
 

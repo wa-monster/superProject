@@ -1,22 +1,16 @@
 <template>
-  <div>
-
-  </div>
+  <div></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name:"aside",
-  setup () {
-    
-
+  name: 'Aside',
+  setup() {
     return {}
   }
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

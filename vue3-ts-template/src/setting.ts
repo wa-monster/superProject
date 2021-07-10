@@ -1,3 +1,3 @@
-module.exports ={
-  title:"SUPER-PROJECT"
+module.exports = {
+  title: 'SUPER-PROJECT'
 }

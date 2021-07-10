@@ -1,4 +1,4 @@
-import { Module } from "vuex"
+import { Module } from 'vuex'
 // import { clearCookie, getCookie, setCookie } from "utils/auth"
 export interface UserState {
   token: string | null
@@ -15,8 +15,8 @@ const user: Module<UserState, any> = {
     // 退出登录
     OUT_LOGIN() {
       // clearCookie("token")
-    },
+    }
   },
-  actions: {},
+  actions: {}
 }
 export default user

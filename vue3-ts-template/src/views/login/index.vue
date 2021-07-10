@@ -1,17 +1,13 @@
 <template>
-  <div>
-    登录页面
-  </div>
+  <div>登录页面</div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name:"Login"
+  name: 'Login'
 })
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
